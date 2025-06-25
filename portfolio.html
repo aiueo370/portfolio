@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="jp">
+
+<head>
+    <title>portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+
+<body>
+    <header id="header">
+        <h1 class="site-title">portfolio</h1>
+    </header>
+
+    <nav id="nav">
+        <ul id="nav-list">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skill">Skill</a></li>
+            <li><a href="#background">Background</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main id="main">
+        <section id="about">
+            <div class="section-inner">
+                <h2 class="section-title">About</h2>
+                <div class="text-inner">
+                    <p class="text">
+                        ポートフォリオをご覧いただきありがとうございます。<br>
+                        精一杯頑張るのでよろしくお願いします。
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skill">
+            <div class="section-inner">
+                <h2 class="section-title">Skill</h2>
+                <ul id="skill-list">
+                    <li>
+                        <div class="img-space">
+                            <img class="skill-img" src="portfolio_img\logo\word.svg" alt="word">
+                        </div>
+                        <p class="skill-name">word</p>
+                        <img class="level" src="portfolio_img\star\three.jpg" alt="level3">
+                    </li>
+                    <li>
+                        <div class="img-space">
+                            <img class="skill-img" src="portfolio_img\logo\excel.svg" alt="excel">
+                        </div>
+                        <p class="skill-name">excel</p>
+                        <img class="level" src="portfolio_img\star\three.jpg" alt="level2">
+                    </li>
+                    <li>
+                        <div class="img-space">
+                            <img class="skill-img" src="portfolio_img\logo\html5.svg" alt="html5">
+                        </div>
+                        <p class="skill-name">html5</p>
+                        <img class="level" src="portfolio_img\star\three.jpg" alt="level3">
+                    </li>
+                    <li>
+                        <div class="img-space">
+                            <img class="skill-img" src="portfolio_img\logo\css3.svg" alt="css3">
+                        </div>
+                        <p class="skill-name">css3</p>
+                        <img class="level" src="portfolio_img\star\two.jpg" alt="level2">
+                    </li>
+                    <li>
+                        <div class="img-space">
+                            <img class="skill-img" src="portfolio_img\logo\c.svg" alt="c">
+                        </div>
+                        <p class="skill-name">c</p>
+                        <img class="level" src="portfolio_img\star\three.jpg" alt="level2">
+                    </li>
+                    <li>
+                        <div class="img-space">
+                            <img class="skill-img" src="portfolio_img\logo\c++.svg" alt="c++">
+                        </div>
+                        <p class="skill-name">c++</p>
+                        <img class="level" src="portfolio_img\star\two.jpg" alt="level2">
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+         <section id="background">
+            <div class="section-inner">
+                <h2 class="section-title">Background</h2>
+                <div class="text-inner">
+                    <ul id="background-list">
+                        <li>
+                            <h3>福岡工業大学短期大学部</h3>
+                            <ul>
+                                <li>モダンアート部所属</li>
+                                <li>グラフ作成プログラム</li>
+                                <li>論理パズルゲーム制作(マインスイーパ)</li>
+                                <li>Webアプリ制作(Xの簡易版)(授業)</li>
+                                <li>アルゴリズムの可視化</li>
+                                <li>ネットワーク構築(授業)</li>
+                                <li>
+                                    <details>
+                                    <summary>卒業研究(クリックで展開)</summary>
+                                    <iframe class="pdf" src="works/graduation_reserch.pdf" width="50%" height="100%"></iframe>
+                                    </details>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <h3>大阪工業大学 情報知能学科</h3>
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="section-inner">
+                <h2 class="section-title">Contact</h2>
+                <div class="text-inner">
+                    <form action="" method="post">
+                        <ul id="form-list">
+                            <li>
+                                <label for="your-name">お名前</label>
+                                <input id="your-name" type="text">
+                            </li>
+                            <li>性別
+                                <ul id="radio-list">
+                                    <li>
+                                        <label><input type="radio" id="man" name="jender" value="男性">男性</label>
+                                    </li>
+                                    <li>
+                                        <label><input type="radio" id="woman" name="jender" value="女性">女性</label>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <label for="email">メールアドレス:</label>
+                                <input id="email" type="email" name="email">
+                            </li>
+                            <li>
+                                <label id="textarea-label">用件(1000字以内)<textarea name="message" cals="50"
+                                        rows="20"></textarea></label>
+                            </li>
+                            <p><input type="submit" value="送信"></p>
+                        </ul>
+                    </form>
+                    <p>※フォームの送信先が実装されていまません</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <aside id="aside">
+        <h2 class="section-title">Works</h2>
+        <div>in preparation</div>
+    </aside>
+
+    <footer id="footer">
+        <nav id="footer-nav">
+            <ul id="footer-list">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skill">Skill</a></li>
+                <li><a href="#background">Background</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </footer>
+
+</body>
+
+</html>
