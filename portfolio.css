@@ -338,4 +338,8 @@ img{
     #aside-list li a{
         display: flex;
     }
+
+    #footer-list{
+        padding: 0;
+    }
 }
